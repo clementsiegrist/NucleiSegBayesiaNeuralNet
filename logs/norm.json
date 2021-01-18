@@ -1,0 +1,11 @@
+{
+    "Clip": {
+        "param": "minmax"
+    },
+    "Subtract": {
+        "param": 0.5
+    },
+    "Divide": {
+        "param": 0.00392156862745098
+    }
+}

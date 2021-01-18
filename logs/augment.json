@@ -1,0 +1,30 @@
+{
+    "Flip": {
+        "axis": 2
+    },
+    "Affine": {
+        "interp_order": [
+            1,
+            0
+        ],
+        "cval": [
+            0.0,
+            0.0
+        ],
+        "fill_mode": [
+            "reflect",
+            "reflect"
+        ],
+        "keep_aspect_ratio": true,
+        "zoom": [
+            0.8,
+            1.2
+        ],
+        "shear": 0.25,
+        "translate": [
+            10.0,
+            10.0
+        ],
+        "rotation": 15.0
+    }
+}

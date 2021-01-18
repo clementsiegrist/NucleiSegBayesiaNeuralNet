@@ -1,0 +1,59 @@
+{
+    "return_all_latent": false,
+    "exp_dropout_param": "same",
+    "exp_activation_param": "same",
+    "exp_norm_param": "same",
+    "exp_ninner": "same",
+    "preserve_color": false,
+    "residual": false,
+    "dropout_enables": null,
+    "dropout_param": {
+        "name": "mc_dropout",
+        "p": 0.5
+    },
+    "activation_param": {
+        "name": "relu"
+    },
+    "norm_param": {
+        "name": "batch"
+    },
+    "upconv_param": {
+        "name": "deconv",
+        "kernel_size": 3,
+        "stride": 2,
+        "padding": 0,
+        "initialW": {
+            "name": "bilinear"
+        },
+        "initial_bias": {
+            "name": "zero"
+        }
+    },
+    "pool_param": {
+        "name": "max",
+        "kernel_size": 2,
+        "stride": 2
+    },
+    "conv_param": {
+        "name": "conv",
+        "kernel_size": 3,
+        "stride": 1,
+        "padding": 2,
+        "padding_mode": "reflect",
+        "dilation": 2,
+        "initialW": {
+            "name": "he_normal"
+        },
+        "initial_bias": {
+            "name": "zero"
+        }
+    },
+    "sigma_channels": null,
+    "sigma": false,
+    "ninner": 2,
+    "nfilter": 32,
+    "nlayer": 4,
+    "out_channels": 2,
+    "in_channels": 3,
+    "ndim": 2
+}

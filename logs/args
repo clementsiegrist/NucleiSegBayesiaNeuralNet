@@ -1,0 +1,20 @@
+{
+    "data_root": "./preprocessed",
+    "batchsize": 2,
+    "iteration": 3000,
+    "frequency": -1,
+    "gpu": "cuda:0",
+    "out": "logs",
+    "resume": "",
+    "valid_augment": false,
+    "valid_split_ratio": 0.1,
+    "valid_split_type": "slice",
+    "lr": 0.0001,
+    "decay": -1,
+    "mc_iteration": 15,
+    "pinfall": -1,
+    "freeze_upconv": false,
+    "test_on_test": false,
+    "test_on_valid": false,
+    "seed": 0
+}

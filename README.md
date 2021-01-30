@@ -1,6 +1,7 @@
 # segmentation_probabilisticDL
 ## Quantification de l’incertitude de la segmentation sémantique de noyaux grâce aux réseaux de neurones bayésiens.
 
+**Authors :** *Ihab Bendidi*, *Clément Siegrist*
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/clementsiegrist/segmentation_probabilisticDL/blob/main/bayesiannet_segmentation.ipynb)
 

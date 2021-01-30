@@ -1,8 +1,21 @@
 # segmentation_probabilisticDL
+## Quantification de l’incertitude de la segmentation sémantique de noyaux grâce aux réseaux de neurones bayésiens.
 
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/clementsiegrist/segmentation_probabilisticDL/blob/main/bayesiannet_segmentation.ipynb)
 
-To consult and use our work on probabilistic segmentation with Bayesian Unet Open the Colab and follow the instructions. To learn more about our motivations and probabilistic deep-learning consult and download our paper Projet_biomedical_bendidi_siegrist.pdf .
+To consult and use our work on probabilistic segmentation with Bayesian Unet Open the Colab and follow the instructions. To learn more about our motivations and probabilistic deep-learning consult and download our report Projet_biomedical_bendidi_siegrist.pdf [here](https://github.com/clementsiegrist/segmentation_probabilisticDL/blob/main/segmentation_probabiliste.pdf).
+
+## Outline 
+
+**I - Data Preparation & Pipelines**
+
+**II - Model Training**
+- *1 - Standard U-Net*
+- *2 - Bayesian U-Net*
+
+**III - Results & Comparison**
+- *1 - Standard U-Net*
+- *2 - Bayesian U-Net*
 
 

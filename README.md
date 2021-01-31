@@ -1,5 +1,5 @@
 # segmentation_probabilisticDL
-## Quantification de l’incertitude de la segmentation sémantique de noyaux grâce aux réseaux de neurones bayésiens.
+## Quantification de l’incertitude de la segmentation sémantique de noyaux de cellules grâce aux réseaux de neurones bayésiens.
 
 **Authors :** *Clément Siegrist*, *Ihab Bendidi*
 
@@ -21,6 +21,6 @@ To consult and use our work on probabilistic segmentation with Bayesian Unet Ope
 
 ## Samples of our results
 
-The figure below presents results performed on the test data. The model also predicts the degree of certainty/uncertainty for its prediction each pixel by projecting a heatmap on the image, where the red color indicates the utmost uncertainty while the blue color indicates the utmost certainty of the prediction.
+The figure below presents results performed on the test data. Both images and labels have been provided by Kaggle during the 2018 Data Science Bowl. The model also predicts the degree of certainty/uncertainty for its prediction each pixel by projecting a heatmap on the image, where the red color indicates the utmost uncertainty while the blue color indicates the utmost certainty of the prediction.
 
 ![GitHub Logo](https://github.com/clementsiegrist/segmentation_probabilisticDL/blob/main/logs/result_sample.png)

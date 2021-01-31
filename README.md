@@ -19,4 +19,8 @@ To consult and use our work on probabilistic segmentation with Bayesian Unet Ope
 - *1 - Standard U-Net*
 - *2 - Bayesian U-Net*
 
+## Samples of our results
 
+The figure below presents results performed on the test data. The model also predicts the degree of certainty/uncertainty for its prediction each pixel by projecting a heatmap on the image, where the red color shows the most uncertainty, and the blue the least uncertainty.
+
+![GitHub Logo](https://github.com/clementsiegrist/segmentation_probabilisticDL/blob/main/logs/result_sample.png)

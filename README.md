@@ -1,4 +1,4 @@
-# segmentation_probabilisticDL
+# Deep Probabilistic Segmentation for Nuclei detection
 ## Quantification de l’incertitude de la segmentation sémantique de noyaux de cellules grâce aux réseaux de neurones bayésiens.
 
 **Authors :** *Clément Siegrist*, *Ihab Bendidi*
